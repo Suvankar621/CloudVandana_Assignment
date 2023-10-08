@@ -5,7 +5,7 @@ public class ShuffleArray {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
 
-        System.out.print("Enter How many element do yo want in your Array:");
+        System.out.print("Enter How many element do yo want in your Array: ");
         int n=sc.nextInt();
         
         int[] array = new int[n];
