@@ -1,8 +1,20 @@
 import java.util.Random;
+import java.util.Scanner;
 
 public class ShuffleArray {
     public static void main(String[] args) {
-        int[] array = { 1, 2, 3, 4, 5, 6, 7 };
+        Scanner sc=new Scanner(System.in);
+
+        System.out.print("Enter How many element do yo want in your Array:");
+        int n=sc.nextInt();
+        
+        int[] array = new int[n];
+        
+        System.out.print("Enter Array Values: ");
+
+        for(int i=0;i<n;i++){
+            array[i]=sc.nextInt();
+        }
 
         shuffleArray(array);
 
